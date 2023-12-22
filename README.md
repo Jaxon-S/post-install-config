@@ -2,59 +2,47 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+<h1>osTicket - Post Installation Configuration</h1>
+This tutorial outlines how to create and configure roles, departments and teams, as well as allow anyone to create tickets through osTicket.<br />
 
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
+<h2>Post Installation Setup:</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
-
-<h2>Installation Steps</h2>
-
+Configure the roles by selecting the Admin Panel, then select "Agents"
 <p>
-<img src="https://i.imgur.com/chyaFyl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="669" alt="image" src="https://github.com/Jaxon-S/post-install-config/assets/154096378/ef3ef80e-e2ce-4e5e-82b6-ca2b8a457aad">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Select add a new role, and name it Supreme Admin; Check all permission boxes
+
+<img width="667" alt="image" src="https://github.com/Jaxon-S/post-install-config/assets/154096378/d94859e9-7ffd-4a96-8f15-1357d4f9651c">
 </p>
 <br />
 
+Select "Agents", then "Departments" and add a new department named "System Administrators"
+<img width="650" alt="image" src="https://github.com/Jaxon-S/post-install-config/assets/154096378/e644f505-f474-4736-a6e9-17524b2b7a93">
+
 <p>
-<img src="https://i.imgur.com/chyaFyl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Navigate to "Teams" in "Agents" panel and add a new team named "Level II Support"
+<img width="664" alt="image" src="https://github.com/Jaxon-S/post-install-config/assets/154096378/a365c552-36d5-4754-99c8-0f62a979353b">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go to settings, then "User Settings" and make sure that:
+  
+"Registration Required: Require registration and login to create tickets" box is not checked
+
+<img width="622" alt="image" src="https://github.com/Jaxon-S/post-install-config/assets/154096378/72c6cf88-aeb5-45c1-8205-7ad425d59899">
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
