@@ -18,24 +18,29 @@ This tutorial outlines how to create and configure roles, departments and teams,
 <h2>Post Installation Setup:</h2>
 
 Configure the roles by selecting the Admin Panel, then select "Agents"
-<p>
 <img width="669" alt="image" src="https://github.com/Jaxon-S/post-install-config/assets/154096378/ef3ef80e-e2ce-4e5e-82b6-ca2b8a457aad">
 </p>
 <p>
-Select add a new role, and name it Supreme Admin; Check all permission boxes
 
+  
+Select add a new role, and name it Supreme Admin; Check all permission boxes
 <img width="667" alt="image" src="https://github.com/Jaxon-S/post-install-config/assets/154096378/d94859e9-7ffd-4a96-8f15-1357d4f9651c">
 </p>
 <br />
 
+
 Select "Agents", then "Departments" and add a new department named "System Administrators"
 <img width="650" alt="image" src="https://github.com/Jaxon-S/post-install-config/assets/154096378/e644f505-f474-4736-a6e9-17524b2b7a93">
+
 
 <p>
 Navigate to "Teams" in "Agents" panel and add a new team named "Level II Support"
 <img width="664" alt="image" src="https://github.com/Jaxon-S/post-install-config/assets/154096378/a365c552-36d5-4754-99c8-0f62a979353b">
 </p>
 <p>
+
+
+  
 Go to settings, then "User Settings" and make sure that:
   
 "Registration Required: Require registration and login to create tickets" box is not checked
